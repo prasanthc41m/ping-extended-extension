@@ -1,9 +1,9 @@
-# GNOME Shell Extension - Ping
-A simple GNOME Shell extension that pings your domain or IP.
+# GNOME Shell Extension - Ping Extended 
+A GNOME Shell extension that pings your domain or IP.
 
 ## Installation
 ### From GNOME Extensions Website
-<a href="https://extensions.gnome.org/extension/6260/ping/">
+<a href="https://extensions.gnome.org/extension/">
 <img src="https://raw.githubusercontent.com/prasanthc41m/switch-x11-wayland/main/img/get-it-on-ego.svg" alt="Get it on EGO" width="200" />
 </a>
 
