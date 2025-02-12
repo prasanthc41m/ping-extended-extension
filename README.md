@@ -14,7 +14,7 @@ git clone https://github.com/prasanthc41m/ping-extended-extension.git
 cd ping-extended-extension
 make install
 ```
-![logo](https://github.com/prasanthc41m/ping-extension/blob/main/ping-extension.png)
+![logo](https://github.com/prasanthc41m/ping-extended-extension/blob/main/ping-extended-extension.png)
 
 ### Feature requests
 
