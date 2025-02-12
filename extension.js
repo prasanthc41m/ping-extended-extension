@@ -70,6 +70,9 @@ const Indicator = GObject.registerClass(
 
         async checkPingAsync() {
             while (true) {
+                if (timeoutId) {
+                    GLib.Source.remove(timeoutId);
+                }
                 try {
                     // Execute the ping command
                     let out = await new Promise((resolve, reject) => {
@@ -242,3 +245,4 @@ export default class PingExtension {
         }
     }
 }
+
