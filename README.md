@@ -16,6 +16,10 @@ make install
 ```
 ![logo](https://github.com/prasanthc41m/ping-extension/blob/main/ping-extension.png)
 
+### Feature requests
+
+- [x] Audio whenever status changes
+- [ ] multiple ip/domains monitor
 
 https://extensions.gnome.org/extension/6260/ping-extended/
 
