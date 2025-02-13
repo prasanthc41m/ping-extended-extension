@@ -10,7 +10,7 @@ import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 // Define the path to the settings file in the user's home directory
 const SETTINGS_FILE_PATH = GLib.build_filenamev([
     GLib.get_user_config_dir(),
-    'ping-extension',
+    'ping-extended-extension',
     'settings.json',
 ]);
 
@@ -21,7 +21,7 @@ let lastStatus = null; // Track the last status to detect changes
 const Indicator = GObject.registerClass(
     class Indicator extends PanelMenu.Button {
         _init() {
-            super._init(0.0, 'Ping Indicator');
+            super._init(0.0, 'Ping extended Indicator');
 
             // Load settings from file
             this._loadSettings();
@@ -148,7 +148,7 @@ const Indicator = GObject.registerClass(
 
             // Construct the path to the sound files
             const HomePath = GLib.get_home_dir();
-            const ExtensionPath = `${HomePath}/.local/share/gnome-shell/extensions/ping@prasanthc41m.github.com/audio/`;
+            const ExtensionPath = `${HomePath}/.local/share/gnome-shell/extensions/ping-extended@prasanthc41m.github.com/audio/`;
             const soundFilePath = currentStatus.endsWith(' ms')
                 ? `${ExtensionPath}ping_started.ogg`
                 : `${ExtensionPath}no_response.ogg`;
@@ -224,7 +224,7 @@ const Indicator = GObject.registerClass(
 
 let indicator;
 
-export default class PingExtension {
+export default class PingExtendedExtension {
     enable() {
         // Create and add the indicator to the panel
         indicator = new Indicator();
