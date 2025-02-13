@@ -3,11 +3,11 @@ all: clean build
 PLUGIN_LOCATION = ~/.local/share/gnome-shell/extensions/ping-extended@prasanthc41m.github.com
 
 build:
-	zip ping-extension.zip extension.js LICENSE metadata.json 
+	zip ping-extended-extension.zip extension.js LICENSE metadata.json 
 
 install:
 	mkdir -p $(PLUGIN_LOCATION)
-	cp -R extension.js metadata.json $(PLUGIN_LOCATION)
+	cp -R audio extension.js metadata.json $(PLUGIN_LOCATION)
 	echo 'Plugin installed. Restart GNOME Shell.'
 
 uninstall:
