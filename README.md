@@ -1,6 +1,5 @@
 # GNOME Shell Extension - Ping Extended 
-A GNOME Shell extension that pings your domain or IP.
-
+A GNOME Shell extension that pings your domain or IP. By default this will ping google.com.
 ## Installation
 ### From GNOME Extensions Website
 <a href="https://extensions.gnome.org/extension/">
