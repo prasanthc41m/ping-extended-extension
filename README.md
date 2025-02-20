@@ -2,7 +2,7 @@
 A GNOME Shell extension that pings your domain or IP. By default this will ping google.com.
 ## Installation
 ### From GNOME Extensions Website
-<a href="https://extensions.gnome.org/extension/">
+<a href="https://extensions.gnome.org/#/">
 <img src="https://raw.githubusercontent.com/prasanthc41m/switch-x11-wayland/main/img/get-it-on-ego.svg" alt="Get it on EGO" width="200" />
 </a>
 
@@ -20,7 +20,6 @@ make install
 - [x] Audio whenever status changes
 - [ ] multiple ip/domains monitor
 
-https://extensions.gnome.org/extension/6260/ping-extended/
 
 ## Contributors
 Thanks for your support :heart:
