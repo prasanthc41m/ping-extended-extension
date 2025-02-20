@@ -7,7 +7,7 @@ build:
 
 install:
 	mkdir -p $(PLUGIN_LOCATION)
-	cp -R audio extension.js metadata.json $(PLUGIN_LOCATION)
+	cp -R audio extension.js metadata.json LICENSE $(PLUGIN_LOCATION)
 	echo 'Plugin installed. Restart GNOME Shell.'
 
 uninstall:
