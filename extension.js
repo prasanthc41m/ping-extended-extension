@@ -145,7 +145,7 @@ const Indicator = GObject.registerClass(
 
             // Construct the path to the sound files
             const HomePath = GLib.get_home_dir();
-            const ExtensionPath = `${HomePath}/.local/share/gnome-shell/extensions/ping@prasanthc41m.github.com/audio/`;
+            const ExtensionPath = `${HomePath}/.local/share/gnome-shell/extensions/ping-extended@prasanthc41m.github.com/audio/`;
             const soundFilePath = currentStatus.endsWith(' ms')
                 ? `${ExtensionPath}ping_started.ogg`
                 : `${ExtensionPath}no_response.ogg`;
